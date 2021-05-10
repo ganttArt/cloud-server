@@ -28,8 +28,8 @@ n/a
 
 ### Deployments
 
-- [GUI Deploy](http://testserver-env.eba-tsmytyjb.us-west-1.elasticbeanstalk.com/)
-- [CLI Deploy]()
+- GUI Deploy: [http://guicloudserver-env.eba-pmjvfg8f.us-west-1.elasticbeanstalk.com/](http://guicloudserver-env.eba-pmjvfg8f.us-west-1.elasticbeanstalk.com/)
+- CLI Deploy: [http://testserver-env.eba-tsmytyjb.us-west-1.elasticbeanstalk.com/](http://testserver-env.eba-tsmytyjb.us-west-1.elasticbeanstalk.com/)
 
 ---
 
@@ -46,4 +46,7 @@ n/a
     - Set to Node environment
     - Upload zip file
 - CLI Deploy:
-  -
+  - install EB cli tool: `brew install awsebcli`
+  - `eb init`
+    - dont use codeCommit
+  - `eb deploy`
